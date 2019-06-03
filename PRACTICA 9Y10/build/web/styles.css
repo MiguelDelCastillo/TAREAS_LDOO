@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 03, 2018, 5:07:16 PM
+    Author     : osnap
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-top: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+h1 {
+    
+    text-align: center;
+    
+    border-radius: 5px;
+    padding: 5%;
+}
+h2 {
+    
+    text-align: center;
+    
+    border-radius: 5px;
+    padding: 1%;
+}
+.Formulario {
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-top: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.cabeza {
+  width: 80%;
+  
+  overflow:hidden;
+}
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+nav ul li:hover {
+  background: #3ead47;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.contenido {
+  padding-top: 80px;
+  text-align: left;
+}
+.login{
+    padding-top: 80px;
+    background-color: #f5f5f5;      
+}
+label {
+    text-align: left;
+    width: 150px;
+    display: inline-block;
+}
+input[type=text]{
+    width: 300px;
+    padding: 10px;
+    margin: 8px;
+    display: inline-block;
+    font-size: 14px;
+}
+input[type=password]{
+    width: 300px;
+    padding: 10px;
+    margin: 8px;
+    display: inline-block;
+    font-size: 14px;
+}
+.footer {
+    
+    bottom: 0;
+    padding: 30px;
+    text-align: left;
+    font-style: italic;
+}
+footer {
+    
+    bottom: 0;
+    padding: 30px;
+    text-align: left;
+    font-style: italic;
+}
+input[type=submit] {
+    width: 35%;
+    background-color: #3ead47;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+article{
+    text-align: center;
+    color: black;
+    
+}
+.cuadro input[type=text]{
+    width: 200px;
+    padding: 10px;
+    margin: 8px;
+    display: inline-block;
+    font-size: 14px;
+}
+img{
+    display:block;
+    margin:auto;
+}
