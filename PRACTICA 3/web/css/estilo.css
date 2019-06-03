@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+#cuadro{
+    width:330px;
+    background:#663399;
+    color:#ffffff;
+    margin:auto;
+}
+
+.dd{
+    width:30px;
+    height:30px;
+    border-radius: 6px;
+    
+    
+}
